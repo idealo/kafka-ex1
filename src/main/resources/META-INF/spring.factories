@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  de.idealo.kafka.idempotency.configuration.IdealoKafkaIdempotencyAutoconfiguration

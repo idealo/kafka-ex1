@@ -1,0 +1,19 @@
+# default excludes
+
+# maven
+target
+
+# intellij
+*.iml
+.idea
+
+# eclipse
+*.project
+*.classpath
+.settings
+
+# mac os
+.DS_Store
+
+# local spring boot configuration
+/config
