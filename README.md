@@ -1,5 +1,7 @@
 # Kafka EX1
 
+This project is no longer actively maintained and has been archived on Jan 7, 2025.
+
 **Kafka EX1** is an autoconfigurable utility to equip your Spring Kafka listeners with the idempotency,
 maintaining the "exactly-once" (the name of the artifact is a play of these words) semantics.
 
@@ -9,6 +11,7 @@ With Kafka you can simply reset the offsets of the consumer and re-process the e
 implement an extra-logic in your software, so that it understands what actions were already done and what weren't, so that you execute the missing steps,
 but not redo them. In quite many cases it is _universally_ enough just to remember a record and to ignore the whole consumer handler method call.
 And **Kafka EX1** will help you here easily. The only thing you need to have is persistence.
+
 
 ## Requirements
 * Java 11
